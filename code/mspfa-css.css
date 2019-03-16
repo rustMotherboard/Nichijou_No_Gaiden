@@ -1,0 +1,102 @@
+.mspfalogo {
+    background-image: url("https://raw.githubusercontent.com/teamGaiden/Nichijou-No-Gaiden/master/assets/website%20assets/png/nng_mspfalogo.png") !important;
+    background-color: #fff;
+    border-right: #FFFF96;
+}
+
+.um {
+   background-color: #FFFF96;
+}
+
+#container {
+    background-color: #FFFF96;
+}
+
+#main {
+    background-color: #FFFF96;
+}
+
+#slide {
+    background-color: #FFFFE5;
+}
+
+#info > span > .spoiler.open {
+    background-color: #FFFFE5;
+}
+
+nav .heart {
+    visibility: hidden;
+}
+
+nav {
+    text-transform: lowercase;
+}
+
+#latestpages a {
+    text-decoration: none;
+}
+
+#content {
+    font-weight: normal;
+}
+
+.spoiler > div:last-child {
+    text-transform: lowercase;
+}
+
+input {
+    font-family: arial, sans-serif;
+    text-transform: lowercase;
+}
+
+.major {
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    color: #000;
+    text-transform: lowercase;
+    text-shadow: 0 0 0;
+}
+
+#savegame, #loadgame, #deletegame {
+    visibility: hidden;
+    word-spacing: -999px;
+    letter-spacing: -999px;
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+}
+#savegame:after {
+    visibility: visible;
+    word-spacing: normal;
+    letter-spacing: normal;
+    content: "save";
+}
+#loadgame:after {
+    visibility: visible;
+    word-spacing: normal;
+    letter-spacing: normal;
+    content: "load";
+}
+#deletegame:after {
+    visibility: visible;
+    word-spacing: normal;
+    letter-spacing: normal;
+    content: "delete save";
+}
+
+body {
+    background-image: url("https://raw.githubusercontent.com/teamGaiden/Nichijou-No-Gaiden/master/art/wallpapers/shinonomelabwallpaper.png");
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    background-attachment: fixed;
+}
+
+.p1-4 #links {
+     display: none;
+}
+
+.p1-4 #command {
+    font-size: 30px;
+    font-family: Arial;
+    text-transform: lowercase;
+}
